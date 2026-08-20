@@ -1,4 +1,4 @@
-const CACHE = "Mi juego-v1";
+const CACHE = "PAPOI survival";
 
 const FILES = [
   "./",
