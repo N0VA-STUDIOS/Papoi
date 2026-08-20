@@ -939,6 +939,11 @@ function loop(now){
   update(dt);draw();requestAnimationFrame(loop);
 }
 requestAnimationFrame(loop);
-</script>
+
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./sw.js");
+}
+  </script>
 </body>
 </html>
